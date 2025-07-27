@@ -1,11 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import HomePage from './landing_pages/Home/HomePage.jsx'
+import Container from '@mui/material/Container';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div>
-      <h1>Welcome to UpStocksy</h1>
-    </div>
+    <Container maxWidth="sm">
+      <HomePage />
+    </Container>
   </StrictMode>,
 )
