@@ -1,8 +1,9 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
+    
     return (
-        <h1>Navbar</h1>
+        <h1>navbar</h1>
     );
 }
 
