@@ -2,12 +2,12 @@ import React from 'react';
 
 function Awards() {
     return (
-        <div className="container mt-5 py-4">
+        <div className="container py-4">
             <div className="row">
-                <div className="col-6 px-5">
+                <div className="col-lg-6 col-md-12 px-lg-5 mb-5">
                     <img src="images/largestBroker.svg" alt="" />
                 </div>
-                <div className="col-6 py-3 px-5">
+                <div className="col-lg-6 col-md-12 py-3 px-5 mb-5">
                     <h2>Largest stock broker in India</h2>
                     <p className="fs-7" >2+ million Zerodha clients contribute to over 15% of all retail order volumes in India daily by 
                         trading and investing in:</p>
