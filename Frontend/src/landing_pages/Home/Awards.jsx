@@ -12,7 +12,7 @@ function Awards() {
                      />
                 </div>
                 <div className="col-lg-6 col-md-12 py-3 px-5 mb-5">
-                    <h2>Largest stock broker in India</h2>
+                    <h2 className='fs-3'>Largest stock broker in India</h2>
                     <p className="fs-7" >2+ million Zerodha clients contribute to over 15% of all retail order volumes in India daily by 
                         trading and investing in:</p>
                     <div className="row mt-5">

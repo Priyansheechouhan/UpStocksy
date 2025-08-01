@@ -6,7 +6,7 @@ function Pricing() {
         <div className="container px-5 my-5 py-3">
             <div className="row mx-5">
                 <div className="col-lg-5">
-                    <h2 className='mb-3'>Unbeatable pricing</h2>
+                    <h2 className='mb-3 fs-3'>Unbeatable pricing</h2>
                     <p>We pioneered the concept of discount broking and price 
                         transparency in India. Flat fees and no hidden charges.</p>
                 </div>
