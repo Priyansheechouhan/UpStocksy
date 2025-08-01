@@ -4,8 +4,12 @@ function Awards() {
     return (
         <div className="container mt-4 py-4">
             <div className="row">
-                <div className="col-lg-6 col-md-12 px-lg-5 mb-5">
-                    <img src="images/largestBroker.svg" alt="" />
+                <div className="col-lg-6 col-md-12 px-lg-5 mb-5 text-center">
+                    <img
+                     src="images/largestBroker.svg"
+                     alt=""
+                     style={{ maxWidth: "85%", width: "auto" }}
+                     />
                 </div>
                 <div className="col-lg-6 col-md-12 py-3 px-5 mb-5">
                     <h2>Largest stock broker in India</h2>
