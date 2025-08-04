@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar(props) {
+function Navbar() {
   return (
     // fixed-top bg-white px-5 border-bottom
     <nav class="navbar navbar-expand-lg border-bottom fixed-top bg-white">
