@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-md-3">
             <div className="me-5">
               <a class="navbar-brand" href="#">
-                <img src="images/logo.svg" alt="" style={{ width: "55%" }} />
+                <img src="images/logo.svg" alt="" style={{ width: "8rem" }} />
               </a>
               <div className="fw-semibold">
                 <p className="mb-0 mt-3 text-muted small">
