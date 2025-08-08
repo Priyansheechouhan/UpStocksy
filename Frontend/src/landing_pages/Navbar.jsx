@@ -11,7 +11,7 @@ function Navbar() {
             <img src="images/logo.svg" alt="" style={{ width: "7.5rem" }} />
           </Link>
         </div>
-        {/* <button
+        <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -20,7 +20,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button> */}
+        </button>
         <div
           class="collapse navbar-collapse justify-content-end me-5"
           id="navbarSupportedContent">
