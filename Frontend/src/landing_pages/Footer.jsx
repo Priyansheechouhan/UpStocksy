@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="bg-light border-top">
-      <div className="container px-5 py-5">
+      <div className="container px-5 pt-5 pb-3">
         <div className="row ps-5 ms-2">
           <div className="col-md-3">
             <div className="me-5">

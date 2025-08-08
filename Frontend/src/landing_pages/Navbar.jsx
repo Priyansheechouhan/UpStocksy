@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -6,9 +7,9 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg border-bottom fixed-top bg-white">
       <div className="container px-5">
         <div className="px-5 mx-3">
-          <a class="navbar-brand" href="#">
+          <Link class="navbar-brand" to="/">
             <img src="images/logo.svg" alt="" style={{ width: "25%" }} />
-          </a>
+          </Link>
         </div>
         <button
           class="navbar-toggler"
@@ -26,23 +27,23 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
               <li class="nav-item py-2 px-3">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li class="nav-item py-2 px-3">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item py-2 px-3">
-                <a class="nav-link">Products</a>
+                <Link class="nav-link" to="/products">Products</Link>
               </li>
               <li class="nav-item py-2 px-3">
-                <a class="nav-link">Pricing</a>
+                <Link class="nav-link" to="/pricing">Pricing</Link>
               </li>
               <li class="nav-item py-2 px-3">
-                <a class="nav-link">Support</a>
+                <Link class="nav-link" to="/support">Support</Link>
               </li>
 
               <li class="nav-item dropdown py-2 px-3 align-items-center" style={{ top: "9px"}}>
