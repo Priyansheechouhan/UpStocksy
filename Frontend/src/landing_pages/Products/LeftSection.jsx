@@ -17,7 +17,7 @@ function LeftSection({
             <img
               src={imageUrl}
               alt="this is an image"
-              style={{ width: "35rem" }}
+              style={{ width: "32rem" }}
             />
           </div>
           <div className="col-md-1"></div>
