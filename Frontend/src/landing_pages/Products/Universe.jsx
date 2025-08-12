@@ -17,8 +17,8 @@ function Universe() {
           partner platforms
         </p>
         <div className="row py-3" style={{ fontSize: "0.8rem" }}>
-          <div className="col-md-2"></div>
-          <div className="col-md-2">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-2">
             <a href="#" className="text-decoration-none">
               <img
                 src="images/zerodhaFundhouse.png"
@@ -32,8 +32,8 @@ function Universe() {
               </p>
             </a>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-md-2">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-2">
             <a href="#" className="text-decoration-none">
               <img
                 src="images/sensibullLogo.svg"
@@ -48,8 +48,8 @@ function Universe() {
               </p>
             </a>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-md-2">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-2">
             <a href="#" className="text-decoration-none">
               <img
                 src="images/tijori.svg"
@@ -63,11 +63,11 @@ function Universe() {
               </p>
             </a>
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-lg-2"></div>
         </div>
         <div className="row pt-3 pb-5" style={{ fontSize: "0.8rem" }}>
-          <div className="col-md-2"></div>
-          <div className="col-md-2">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-2">
             <a href="#" className="text-decoration-none">
               <img
                 src="images/streakLogo.png"
@@ -81,8 +81,8 @@ function Universe() {
               </p>
             </a>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-md-2">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-2">
             <a href="#" className="text-decoration-none">
               <img
                 src="images/smallcaseLogo.png"
@@ -96,8 +96,8 @@ function Universe() {
               </p>
             </a>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-md-2">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-2">
             <a href="#" className="text-decoration-none">
               <img
                 src="images/dittoLogo.png"
@@ -111,7 +111,7 @@ function Universe() {
               </p>
             </a>
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-lg-2"></div>
         </div>
         <div className="mb-5 pb-5">
           <button
