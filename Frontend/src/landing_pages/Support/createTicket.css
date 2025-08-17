@@ -1,0 +1,4 @@
+.dropdown-div:hover {
+	 scale: 1.02;
+     transition: scale 0.2s;
+}

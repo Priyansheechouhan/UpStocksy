@@ -11,16 +11,15 @@ function Navbar() {
             <img src="images/logo.svg" alt="" style={{ width: "7.5rem" }} />
           </Link>
         </div>
-        <button
-          class="navbar-toggler"
-          type="button"
+        <a
+          className="navbar-toggler me-5 no-outline text-muted"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <i class="fa-solid fa-bars"></i>
+        </a>
         <div
           class="collapse navbar-collapse justify-content-end me-5"
           id="navbarSupportedContent">

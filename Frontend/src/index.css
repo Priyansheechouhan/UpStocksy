@@ -73,7 +73,10 @@ button:focus-visible {
 
 @media (max-width: 992px) {
   :root {
-    margin-top: 3.5rem;
+    margin-top: 3rem;
   }
 }
+
+
+
 
