@@ -106,9 +106,7 @@ function CreateTicket() {
                     <li>Trading FAQs</li>
                   </a>
                   <a href="#" className="text-decoration-none">
-                    <li>
-                      Margin Trading Facility (MTF) and Margins
-                    </li>
+                    <li>Margin Trading Facility (MTF) and Margins</li>
                   </a>
                   <a href="#" className="text-decoration-none">
                     <li>Charts and orders</li>
@@ -148,9 +146,7 @@ function CreateTicket() {
                     <li>Withdraw money</li>
                   </a>
                   <a href="#" className="text-decoration-none">
-                    <li>
-                      Add bank accounts
-                    </li>
+                    <li>Add bank accounts</li>
                   </a>
                   <a href="#" className="text-decoration-none">
                     <li>eMandates</li>
@@ -184,9 +180,7 @@ function CreateTicket() {
                     <li>Corporate actions</li>
                   </a>
                   <a href="#" className="text-decoration-none">
-                    <li>
-                      Funds statement
-                    </li>
+                    <li>Funds statement</li>
                   </a>
                   <a href="#" className="text-decoration-none">
                     <li>Reports</li>
@@ -201,7 +195,7 @@ function CreateTicket() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="mb-md-5 mb-sm-5 mb-lg-0">
             <div
               className="border d-flex dropdown-div"
               data-bs-toggle="collapse"
@@ -226,9 +220,7 @@ function CreateTicket() {
                     <li>National Pension Scheme (NPS)</li>
                   </a>
                   <a href="#" className="text-decoration-none">
-                    <li>
-                      Fixed Deposit (FD)
-                    </li>
+                    <li>Fixed Deposit (FD)</li>
                   </a>
                   <a href="#" className="text-decoration-none">
                     <li>Features on Coin</li>
@@ -244,12 +236,58 @@ function CreateTicket() {
             </div>
           </div>
         </div>
-        <div className="col-lg-4"></div>
+        <div className="col-lg-4 mt-5 mt-md-0 mt-sm-0 mt-lg-0">
+          <div className="ms-lg-3">
+            <div className="side-dive-1 p-0 d-flex justify-content-center align-items-center">
+              <div className="side-dive-left"></div>
+              <div className="me-2 mt-2">
+                <ul>
+                  <a href="#">
+                    <li className="mb-3">
+                      Exclusion of F&O contracts on 8 securities from August 29,
+                      2025
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li>
+                      Revision in expiry day of Index and Stock derivatives
+                      contracts
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="ms-lg-3 mt-4">
+            <div className="side-dive-2 broder">
+              <p className="bg-light px-3 py-2 mb-0 fw-semibold">Quick links</p>
+              <p className="px-3 py-2 mb-0 border-top-none border ">
+                <a href="#" className="text-decoration-none">
+                  1. Track account opening
+                </a>
+              </p>
+              <p className="px-3 py-2 mb-0 border-top-none border ">
+                <a href="#" className="text-decoration-none">
+                  2. Track segment activation
+                </a>
+              </p>
+              <p className="px-3 py-2 mb-0 border-top-none border ">
+                <a href="#" className="text-decoration-none">
+                  3. Intraday margins
+                </a>
+              </p>
+              <p className="px-3 py-2 mb-0 border-top-none border ">
+                <a href="#" className="text-decoration-none">
+                  4. Kite user manual
+                </a>
+              </p>
+              
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
 
 export default CreateTicket;
-
-

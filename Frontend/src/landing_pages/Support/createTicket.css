@@ -2,3 +2,20 @@
 	 scale: 1.02;
      transition: scale 0.2s;
 }
+
+.side-dive-1 {
+     height: 10rem;
+     background-color: #fff4e5;
+     font-size: 1.1rem;
+}
+
+.side-dive-left {
+     background-color: #ff9100;
+     height: 100%;
+     width: 1rem;
+     margin-right: 0.5rem;
+}
+
+.side-dive-2 {
+     font-size: 1.05rem;
+}
