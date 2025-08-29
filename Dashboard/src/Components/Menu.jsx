@@ -21,7 +21,7 @@ const Menu = () => {
     <div className="menu-container">
       <img src="images/kite-logo1.svg" style={{ width: "2.8rem" }} />
       <div className="menus">
-        <ul>
+        <ul className="menu-list">
           <li className="nav-links">
             <Link
               style={{ textDecoration: "none" }}
@@ -100,6 +100,11 @@ const Menu = () => {
           <i class="fa-solid fa-bell"></i>
           <div className="avatar">ZU</div>
           <p className="username">USERID</p>
+          
+        </div>
+        <div className="menu-icons">
+          <i className="fa-solid fa-bars menuBtn"></i>
+          <i className="fa-solid fa-xmark closeBtn"></i>
         </div>
       </div>
     </div>

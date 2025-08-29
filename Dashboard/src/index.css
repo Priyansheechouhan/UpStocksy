@@ -883,3 +883,39 @@ hr {
 .action:hover {
   background-color: rgb(212, 212, 212);
 }
+
+.menuBtn, .closeBtn,.menu-icons {
+  display: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.menu-icons {
+  margin-left: 0.8rem;
+}
+
+@media only screen and (max-width: 1160px){
+  .menu-list {
+    display: none;
+  }
+
+  .menu-icons,.menuBtn {
+    display: block;
+  }
+
+  .indices-container {
+    display: none;
+  }
+  .menu-container {
+    flex-basis: 100%;
+  }
+
+  .watchlist-container {
+    display: none;
+    width: 100%;
+  }
+
+  .content {
+    flex-basis: 100%;
+  }
+}
