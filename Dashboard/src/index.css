@@ -249,6 +249,11 @@ code {
   cursor: pointer;
 }
 
+.item {
+  margin-left: 0.5rem;
+  margin-right: 0.6rem;
+}
+
 .menu-container {
   flex-basis: 68%;
   height: 100%;
@@ -703,6 +708,10 @@ hr {
   position: relative;
 }
 
+.price {
+  color: red;
+}
+
 .item {
   display: flex;
   align-items: center;
@@ -710,6 +719,10 @@ hr {
   font-weight: 300;
   font-size: 0.8rem;
   position: relative;
+}
+
+.item p{
+  margin: 0;
 }
 
 .item-info {
@@ -835,6 +848,10 @@ hr {
 .list li:hover {
   cursor: move;
   background-color: #f3f3f3;
+}
+
+.list {
+  padding: 0;
 }
 
 .list li:hover > .actions {
